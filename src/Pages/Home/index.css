@@ -1,0 +1,40 @@
+.table-grid{
+    border: 0px;
+}
+.darkTheame{
+    background-color: #393A3B  !important;
+    color: white !important;
+    margin-top: 90px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.whiteTheame{
+    background-color: white  !important;
+    color: black !important;
+    margin-top: 90px;
+    padding: 10px;
+}
+tbody{
+    font-weight: 600;
+    font-size: 12px;
+}
+.btnSize{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: italic;
+}
+.not-found{
+    margin-left: 400px;
+    margin-top: 100px !important;
+}
+@media print {
+    .print{
+        width: "95%";
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
